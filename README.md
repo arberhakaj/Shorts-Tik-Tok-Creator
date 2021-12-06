@@ -22,5 +22,5 @@ The Moviepy module is very powerfull, and because it is written in Python you ca
 todo
 
 ## Help
-[Performance issues](https://zulko.github.io/moviepy/getting_started/efficient_moviepy.html)
+Bad performance? Watch here: [Performance issues](https://zulko.github.io/moviepy/getting_started/efficient_moviepy.html)  
 Create a [Discussion](https://github.com/arberhakaj/Shorts-Tik-Tok-Creator/discussions), if you need help.
