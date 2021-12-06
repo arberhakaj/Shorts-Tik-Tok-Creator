@@ -23,3 +23,4 @@ todo
 
 ## Help
 [Performance issues](https://zulko.github.io/moviepy/getting_started/efficient_moviepy.html)
+Create a [Discussion](https://github.com/arberhakaj/Shorts-Tik-Tok-Creator/discussions), if you need help.
