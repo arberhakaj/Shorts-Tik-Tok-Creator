@@ -14,7 +14,6 @@ def convert_video(video_input_path, video_output_path, black_image_path = "black
  
     # The videoclip gets placed on top the canvas
     clip = (VideoFileClip(video_input_path).
-            subclip(1,10).
             resize(height=1920).
             # Crop the video on the x-axix, this is what will be shown on the video.
             # You most likely need to experiment with the variables (x1, x2) to get the best result.
@@ -24,7 +23,7 @@ def convert_video(video_input_path, video_output_path, black_image_path = "black
 
     # Create the video
     final_clip = CompositeVideoClip([black_canvas, clip])
-    final_clip.subclip(0,10).write_videofile(video_output_path, 
+    final_clip.write_videofile(video_output_path, 
         threads=4, 
         fps=60,
         codec=vcodec,
