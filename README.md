@@ -15,11 +15,11 @@ It is written with Python and uses the Moviepy module to edit and process the vi
 ### How it works
 
 You should read the Moviepy ["Getting started"](https://zulko.github.io/moviepy/getting_started/getting_started.html) page to get the idea, how Moviepy works.  
-A black video is used as a canvas, which is set to the resolution 1080x1920. On this "canvas" the video that will be converted will be placed. With the functions resize, crop, etc. you can convert the video, for example to change the height or width of the video that is displayed. The example code is commented and below you can find more examples.
+A black image is used as a canvas, which is set to the resolution 1080x1920. On this "canvas" the video that will be converted will be placed. With the functions resize, crop, etc. you can convert the video, for example to change the height or width of the video that is displayed. The example code is commented and below you can find more examples.
 
 ### Examples
 The Moviepy module is very powerfull, and because it is written in Python you can easily add code to the script, to match it with your usecase. Here are some examples:  
 todo
 
 ## Help
-
+[Performance issues](https://zulko.github.io/moviepy/getting_started/efficient_moviepy.html)
